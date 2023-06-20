@@ -1,0 +1,44 @@
+body{
+    background-color: #CEC9C4;
+    margin-top: 7em; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cuadro1 {
+    background-color: #F5ECDC;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid ;
+    border-radius: 25px;
+}
+h2{
+    color: #77898F;
+
+  }
+  titulo{
+    background-color: #77898F;
+    color: #635D56;
+    
+
+}
+th, tr{
+    border: 2px solid #635D56;
+    background: #CEC9C4;
+}
+
+table{
+    background: black;
+}
+button{
+    background-color: #E8BE96;
+    font-size: 15px;
+    border-radius: 15px;
+    color:#77898F;
+    width: 180px;
+    margin: 5px;
+    height: 40px;
+}

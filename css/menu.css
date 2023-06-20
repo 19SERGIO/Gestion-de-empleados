@@ -1,0 +1,141 @@
+body {
+    background-color: #CEC9C4; 
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cuadro1 {
+    background-color: #F5ECDC;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left: 5em;
+    padding-right: 38em;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid ;
+    border-radius: 25px;
+    
+    
+}
+.titulo{
+  
+    margin-top: 20px;
+    color: #77898F;
+    display:flex;
+    
+}
+.titulo h2{
+  width: 450px;
+  text-align: left;
+  
+  
+}
+.titulo img{
+  
+    margin-left: 125%;
+    width: 10em;
+    height: 10em;
+    
+}
+.botones-menu{
+    display: flex;
+}
+.btn-der button, .btn-cen button, .btn-izq button{
+    background-color: #E8BE96;
+    border-radius: 25px;
+    margin: 8px;
+    display: flex;
+    
+
+}
+.texto{
+    margin: 15px;
+    text-align: left;
+    background: transparent;
+    
+}
+
+
+.btn-der button h3, .btn-cen button h3, .btn-izq button h3{
+    color: #77898F;
+    padding-right: 120px;
+    font-size: 18px;
+    
+}
+.btn-der button p, .btn-cen button p, .btn-izq button p{
+    padding-right: 90px;
+    font-size: 10px;
+}
+.btn-der img, .btn-cen img, .btn-izq img{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 10pxpx;
+    margin-left: -120px;
+    padding: 10px;
+   
+}
+.btn-salir button{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E8BE96;
+    border-radius: 25px;
+   
+    display: flex;
+    
+    color: #77898F;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      margin: 1em;
+    }
+  
+    .cuadro1 {
+      width: 100%;
+      padding: 2em;
+      padding-bottom: 4em;
+    }
+  
+    .titulo {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .titulo img {
+      margin-left: 0;
+      margin-top: 1em;
+      width: 8em;
+      height: 8em;
+    }
+  
+    .botones-menu {
+      flex-direction: column;
+    }
+  
+    .btn-der button,
+    .btn-cen button,
+    .btn-izq button {
+      margin: 8px auto;
+    }
+  
+    .btn-der img,
+    .btn-cen img,
+    .btn-izq img {
+      margin: 0 auto;
+    }
+  
+    .btn-salir button {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }

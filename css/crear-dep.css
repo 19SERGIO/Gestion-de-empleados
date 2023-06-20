@@ -1,0 +1,54 @@
+body{
+    background-color: #CEC9C4;
+    margin-top: 7em; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cuadro1 {
+    background-color: #F5ECDC;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid ;
+    border-radius: 25px;
+    text-align: center;
+}
+.crear input{
+    color:#635D56;
+    background-color: #E8BE96;
+    margin: 2px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 1px solid #635D56;
+}
+
+
+.id-grande{
+    text-align: justify;
+    height: 100px;
+}
+.botones input{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #77898F;
+    background: #E8BE96;
+    border-radius: 15px;
+}
+@media (max-width: 500px) {
+    .cuadro1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .crear .cuatro input {
+        width: 100%;
+    }
+
+    .botones button {
+        width: 100%;
+    }
+}

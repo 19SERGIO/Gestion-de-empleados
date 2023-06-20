@@ -1,0 +1,88 @@
+body {
+    background-color: #CEC9C4;
+    margin-top: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .cuadro1 {
+    background-color: #F5ECDC;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 40px 20px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid;
+    border-radius: 25px;
+  }
+  
+  .cuadro1 .titulo {
+    text-align: center;
+    color: #77898F;
+  }
+  
+  .consulta input {
+    background-color: #E8BE96;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #635D56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #E8BE96;
+    font-size: 15px;
+    border-radius: 15px;
+    color: #77898F;
+    width: 100%;
+    max-width: 200px;
+    margin: 5px;
+    height: 40px;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info input {
+    background-color: #E8BE96;
+    width: 100%;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid #635D56;
+  }
+  
+  .des {
+    height: 150px;
+    margin: auto;
+  }
+  
+  .btn {
+    background-color: #E8BE96;
+    font-size: 15px;
+    border-radius: 15px;
+    color: #77898F;
+    width: 40%;
+    max-width: 200px;
+    margin: 5px;
+    height: 40px;
+  }
+
+  .message-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F5ECDC;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #77898F;
+}
