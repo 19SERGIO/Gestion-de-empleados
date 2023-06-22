@@ -1,6 +1,6 @@
 <?php
 
-include("../conexion/db.php");
+include("../conexion/db-principal.php");
 
 if(isset($_POST['save'])){
     $nombre = $_POST['username'];
@@ -18,7 +18,7 @@ if(isset($_POST['save'])){
         echo '<script>
         setTimeout(function() {
             alert("Usuario registrado con exito");
-            window.location.href = "../index/login.php";
+            window.location.href = "../index/menu.php";
         }); 
         </script>';
         
