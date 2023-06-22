@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-05-2023 a las 17:17:54
+-- Tiempo de generación: 22-06-2023 a las 04:35:20
 -- Versión del servidor: 10.4.28-MariaDB
--- Versión de PHP: 8.2.4
+-- Versión de PHP: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -123,6 +123,26 @@ CREATE TABLE `historial_laboral` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `info`
+--
+
+CREATE TABLE `info` (
+  `nom` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `pas` varchar(20) NOT NULL,
+  `conpas` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `info`
+--
+
+INSERT INTO `info` (`nom`, `email`, `pas`, `conpas`) VALUES
+('Sergio', 'sergiodavid-10@hotmail.com', '123456', '123456');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `puesto`
 --
 
@@ -214,6 +234,12 @@ ALTER TABLE `historial_laboral`
   ADD PRIMARY KEY (`his_id`),
   ADD KEY `pue_id` (`pue_id`),
   ADD KEY `emp_id` (`emp_id`);
+
+--
+-- Indices de la tabla `info`
+--
+ALTER TABLE `info`
+  ADD PRIMARY KEY (`nom`);
 
 --
 -- Indices de la tabla `puesto`
